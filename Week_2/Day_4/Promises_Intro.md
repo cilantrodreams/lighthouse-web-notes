@@ -31,3 +31,11 @@ gotoTheirHouse(billy)
     console.log("I don't feel well. I gotta go home now Billy!");
   });
 ```
+
+Promises allow for async tasks to be written in a less nested way that is easier to manage.
+
+### Other Advantages to Promises
+
+* Error handling is simpler
+* async code is easier to unit test
+* `Promise.all` can be used to run multiple async operations in parallel and have a single callback to see all the results together
